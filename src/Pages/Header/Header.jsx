@@ -31,7 +31,7 @@ const Header = () => {
                     </div></> : 
                     <>
                        <div>
-                        <h1>Dream Global International</h1>
+                        <h1 className='companyName'>Dream Global International</h1>
                          <div className='btn-group'>
                          <Link to='/login' ><button className="button-41" >LogIn</button></Link>
                          <Link to='/signup' ><button className="button-41">Signup</button></Link>

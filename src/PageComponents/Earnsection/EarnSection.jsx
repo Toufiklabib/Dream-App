@@ -80,24 +80,24 @@ const EarnSection = () => {
 										</a>
 									</div>
 									<div className="withicon">
-										<a href="">
+										<Link to='/chistory' >
 											<div className="iconPage">
 												<div className="icon-area">
 													<img src="https://cdn-icons-png.flaticon.com/512/1802/1802636.png" className='iconImgCss' />
 												</div>
 												<span>CHistory</span>
 											</div>
-										</a>
+										</Link>
 									</div>
 									<div className="withicon">
-										<a href="">
+										<Link to='/dhistory' >
 											<div className="iconPage">
 												<div className="icon-area">
 													<img src="https://cdn-icons-png.flaticon.com/512/5180/5180799.png" className='iconImgCss' />
 												</div>
 												<span>DHistory</span>
 											</div>
-										</a>
+										</Link>
 									</div>
 									<div className="withicon">
 										<Link onClick={handelLogout}>

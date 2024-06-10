@@ -156,6 +156,11 @@
 
 }
 
+.companyName{
+    color: white;
+    font-size: 20px;
+    margin: 10px 0;
+}
 
 
 
@@ -204,6 +209,7 @@
         font-size: 18px;
         text-align: center;
         margin-top: 5px;
+        text-transform: uppercase;
      }
 
      .balance-icons{

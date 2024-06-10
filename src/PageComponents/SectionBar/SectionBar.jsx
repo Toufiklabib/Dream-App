@@ -27,66 +27,66 @@ const SectionBar = () => {
                         </Link>
                     </div>
                     <div className="withicon">
-                        <a href="/work.html">
+                        <Link to='/work' >
                             <div className="iconPage">
                                 <div className="icon-area">
                                     <img src="https://cdn-icons-png.flaticon.com/128/3774/3774905.png" className='iconImgCss'  />
                                 </div>
                                 <span  className='sectionName' >Work</span>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                     <div className="withicon">
-                        <a href="/totalearn.html">
+                        <Link to='/totalearn' >
                             <div className="iconPage">
                                 <div className="icon-area">
                                     <img src="https://static.vecteezy.com/system/resources/previews/022/973/168/original/gift-card-flat-icon-shopping-gift-card-earn-points-redeem-present-box-concept-vector-illustration-png.png" className='iconImgCss'  />
                                 </div>
                                 <span className='sectionName'  >Total Earn</span>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 <div className="all-content mt-2">
                     <div className="withicon">
-                        <a href="/plan.html">
+                        <Link href="/plan.html">
                             <div className="iconPage">
                                 <div className="icon-area">
                                     <img src="https://cdn-icons-png.flaticon.com/128/9398/9398952.png" className='iconImgCss' />
                                 </div>
                                 <span className='sectionName' >Plan</span>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                     <div className="withicon">
-                        <a href="/commission.html">
+                        <Link to='/commission' >
                             <div className="iconPage">
                                 <div className="icon-area">
                                     <img src="https://cdn-icons-png.flaticon.com/512/10496/10496522.png" className='iconImgCss' />
                                 </div>
                                 <span className='sectionName' >Commission</span>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                     <div className="withicon">
-                        <a href="/job.html">
+                        <Link to='/job' >
                             <div className="iconPage">
                                 <div className="icon-area">
                                     <img src="https://static.vecteezy.com/system/resources/thumbnails/004/968/602/small/new-email-notification-on-mobile-phone-device-or-smartphone-concept-illustration-flat-design-eps10-vector.jpg" className='iconImgCss'  />
                                 </div>
                                 <span className='sectionName' >Job</span>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                     <div className="withicon">
-                        <a href="">
+                        <Link to='/support' >
                             <div className="iconPage">
                                 <div className="icon-area">
                                     <img src="https://www.iconpacks.net/icons/2/free-chat-support-icon-1721-thumb.png" className='iconImgCss'  />
                                 </div>
                                 <span className='sectionName'  >Support</span>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </section>

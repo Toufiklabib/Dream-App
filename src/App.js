@@ -9,6 +9,11 @@ import Login from './Pages/Login/Login.jsx';
 import Signup from './Pages/Signup/Signup.jsx';
 import UserRouter from './Router/UserRouter.jsx';
 import Plan from './Pages/Plan/Plan.jsx';
+import Work from './Pages/Work/Work.jsx';
+import TotalEarn from './Pages/TotalEarn/TotalEarn.jsx';
+import Commision from './Pages/Commision/Commision.jsx';
+import CHistory from './Pages/CHistory/CHistory.jsx';
+import DHistory from './Pages/DHistory/DHistory.jsx';
 
 
 
@@ -46,13 +51,33 @@ function App() {
           path: '/plan',
           element: <Plan></Plan>
         },
+        {
+          path: '/work',
+          element: <Work></Work>
+        },
+        {
+          path: '/totalearn',
+          element: <TotalEarn></TotalEarn>
+        },
+        {
+          path: '/commission',
+          element: <Commision></Commision>
+        },
+        {
+          path: '/chistory',
+          element: <CHistory></CHistory>
+        },
+        {
+          path: '/dhistory',
+          element: <DHistory></DHistory>
+        },
       ]
    }
   
   ])
  
    return (
-     <div >
+     <div>
        <RouterProvider router={router} > </RouterProvider>
        
      </div>
