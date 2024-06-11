@@ -45,17 +45,17 @@ const Cashout = () => {
                                         <option value="Bikash">Bkash</option>
                                         <option value="Nagad">Nagad</option>
                                         <option value="Rocket">Rocket</option>
-                                        <option value="Cripto">Cripto</option>
+                                        <option value="Crypto">Crypto</option>
                                     </select>
                                 </div>
                                 <div class="input-group my-5">
-                                    <input name="amount" id="amounts" placeholder="Phone Number" type="number" />
+                                    <input class='cashdepInput' name="amount" id="amounts" placeholder="Phone Number" type="number" />
                                 </div>
                                 <div class="input-group my-5">
-                                    <input name="amount" id="amounts" placeholder="Amount" type="number" />
+                                    <input class='cashdepInput' name="amount" id="amounts" placeholder="Amount" type="number" />
                                 </div>
                                 <div class="input-group my-5">
-                                    <input name="transaction" id="transactions" placeholder="Transection ID" type="text" />
+                                    <input class='cashdepInput' name="transaction" id="transactions" placeholder="Transection ID" type="text" />
                                 </div>
                                 <button value="submit" class="submit-btn" type="submit">Submit</button>
                             </form>

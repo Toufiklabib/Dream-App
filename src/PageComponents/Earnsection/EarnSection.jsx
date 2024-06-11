@@ -2,14 +2,15 @@ import React, { useContext } from 'react';
 
 import './EarnSection.css'
 import { AuthContext } from '../../Context/AuthProvider';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const EarnSection = () => {
 
 	const { logout } = useContext(AuthContext);
-
+     const navigate = useNavigate();
 	const handelLogout = () => {
 		logout();
+		navigate('/login');
 	}
 
 	return (

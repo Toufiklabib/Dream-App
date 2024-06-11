@@ -14,6 +14,7 @@ import TotalEarn from './Pages/TotalEarn/TotalEarn.jsx';
 import Commision from './Pages/Commision/Commision.jsx';
 import CHistory from './Pages/CHistory/CHistory.jsx';
 import DHistory from './Pages/DHistory/DHistory.jsx';
+import Forgate from './Pages/ForgetPassword/Forgate.jsx';
 
 
 
@@ -49,27 +50,31 @@ function App() {
         },
         {
           path: '/plan',
-          element: <Plan></Plan>
+          element: <UserRouter><Plan></Plan></UserRouter>
         },
         {
           path: '/work',
-          element: <Work></Work>
+          element: <UserRouter><Work></Work></UserRouter>
         },
         {
           path: '/totalearn',
-          element: <TotalEarn></TotalEarn>
+          element: <UserRouter><TotalEarn></TotalEarn></UserRouter>
         },
         {
           path: '/commission',
-          element: <Commision></Commision>
+          element: <UserRouter><Commision></Commision></UserRouter>
         },
         {
           path: '/chistory',
-          element: <CHistory></CHistory>
+          element: <UserRouter><CHistory></CHistory></UserRouter>
         },
         {
           path: '/dhistory',
-          element: <DHistory></DHistory>
+          element: <UserRouter><DHistory></DHistory></UserRouter>
+        },
+        {
+          path: '/forgate',
+          element: <Forgate></Forgate>
         },
       ]
    }

@@ -6,7 +6,7 @@ const Main = () => {
 
     const location = useLocation();
 
-    const noFooter = location.pathname.includes('login') || location.pathname.includes('signup') ;
+    const noFooter = location.pathname.includes('login') || location.pathname.includes('signup') ||  location.pathname.includes('forgate') ;
     
     return (
         <div>
