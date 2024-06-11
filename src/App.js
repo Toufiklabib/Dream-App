@@ -15,6 +15,7 @@ import Commision from './Pages/Commision/Commision.jsx';
 import CHistory from './Pages/CHistory/CHistory.jsx';
 import DHistory from './Pages/DHistory/DHistory.jsx';
 import Forgate from './Pages/ForgetPassword/Forgate.jsx';
+import Job from './Pages/Job/Job.jsx';
 
 
 function App() {
@@ -76,7 +77,11 @@ function App() {
         },
         {
           path: '/plan',
-          element: <Plan></Plan>
+          element: <UserRouter><Plan></Plan></UserRouter>
+        },
+        {
+          path: '/job',
+          element: <UserRouter><Job></Job></UserRouter>
         },
       ]
    }
