@@ -3,8 +3,8 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import './App.css';
 import Home from './Pages/Home/Home';
 import Main from './Layout/Main.jsx';
-import Deposite from './Pages/Deposite/Deposite.jsx'
-import Cashout from './Pages/Cashout/Cashout.jsx'
+import Deposite from './Pages/Deposite/Deposite.jsx';
+import Cashout from './Pages/Cashout/Cashout.jsx';
 import Login from './Pages/Login/Login.jsx';
 import Signup from './Pages/Signup/Signup.jsx';
 import UserRouter from './Router/UserRouter.jsx';
@@ -15,8 +15,6 @@ import Commision from './Pages/Commision/Commision.jsx';
 import CHistory from './Pages/CHistory/CHistory.jsx';
 import DHistory from './Pages/DHistory/DHistory.jsx';
 import Forgate from './Pages/ForgetPassword/Forgate.jsx';
-
-
 
 
 function App() {
@@ -75,6 +73,10 @@ function App() {
         {
           path: '/forgate',
           element: <Forgate></Forgate>
+        },
+        {
+          path: '/plan',
+          element: <Plan></Plan>
         },
       ]
    }

@@ -49,7 +49,7 @@ const SectionBar = () => {
                 </div>
                 <div className="all-content mt-2">
                     <div className="withicon">
-                        <Link href="/plan.html">
+                        <Link  to='/plan'>
                             <div className="iconPage">
                                 <div className="icon-area">
                                     <img src="https://cdn-icons-png.flaticon.com/128/9398/9398952.png" className='iconImgCss' />
@@ -59,7 +59,7 @@ const SectionBar = () => {
                         </Link>
                     </div>
                     <div className="withicon">
-                        <Link to='/commission' >
+                        <Link to='/commission'>
                             <div className="iconPage">
                                 <div className="icon-area">
                                     <img src="https://cdn-icons-png.flaticon.com/512/10496/10496522.png" className='iconImgCss' />
