@@ -10,10 +10,6 @@ const Home = () => {
 	  <SectionBar></SectionBar>
 	  <Banner></Banner>
 	  <EarnSection></EarnSection>
-       
-
-
-
         </div>
     );
 };

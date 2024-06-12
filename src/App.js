@@ -16,6 +16,10 @@ import CHistory from './Pages/CHistory/CHistory.jsx';
 import DHistory from './Pages/DHistory/DHistory.jsx';
 import Forgate from './Pages/ForgetPassword/Forgate.jsx';
 import Job from './Pages/Job/Job.jsx';
+import Support from './Pages/Support/Support.jsx';
+import Complaint from './Pages/Complaintbox/Complaint.jsx';
+import Profile from './Pages/Profile/Profile.jsx';
+import Transection from './Pages/Transection/Transection.jsx';
 
 
 function App() {
@@ -72,7 +76,7 @@ function App() {
           element: <UserRouter><DHistory></DHistory></UserRouter>
         },
         {
-          path: '/forgate',
+          path: '/forgot',
           element: <Forgate></Forgate>
         },
         {
@@ -83,6 +87,23 @@ function App() {
           path: '/job',
           element: <UserRouter><Job></Job></UserRouter>
         },
+        {
+          path: '/support',
+          element: <UserRouter><Support></Support></UserRouter>
+        },
+        {
+          path: '/complaint',
+          element: <UserRouter> <Complaint></Complaint> </UserRouter>
+        },
+        {
+          path: '/profile',
+          element: <UserRouter><Profile></Profile></UserRouter>
+        },
+        {
+          path: '/transection',
+          element: <UserRouter><Transection></Transection></UserRouter>
+        },
+
       ]
    }
   

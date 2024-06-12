@@ -49,7 +49,11 @@
       border-radius: 10px;
       padding: 5px;
      } */
-
+  .linktag{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+  }
 
    }
    @media only screen and (max-width: 768px) {
@@ -63,10 +67,7 @@
       width: 50px; 
     }
 
-    /* .shadow-area{
-      padding: 10px 0;
-      box-shadow: 0px 5px 20px #d9d9d9;
-     } */
+  
      .all-content{
       display: flex;
       justify-content: space-between;
@@ -81,11 +82,13 @@
       text-align: center;
       text-decoration: none; 
      }
+     .linktag{
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 800;
+    }
 
-     /* .shadow-area .background-img img{
-      border-radius: 10px;
-      padding: 5px;
-     } */
+
     
    }
 

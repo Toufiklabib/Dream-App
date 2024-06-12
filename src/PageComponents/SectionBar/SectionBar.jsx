@@ -7,7 +7,7 @@ const SectionBar = () => {
             <section>
                 <div className="all-content">
                     <div className="withicon">
-                        <Link to='/deposite'  >
+                        <Link className='linktag' to='/deposite'  >
                             <div className="iconPage">
                                 <div className="icon-area">
                                     <img src="https://cdn-icons-png.flaticon.com/512/5304/5304640.png"  className='iconImgCss'   />
@@ -17,7 +17,7 @@ const SectionBar = () => {
                         </Link >
                     </div>
                     <div className="withicon">
-                        <Link to='/cashout' >
+                        <Link className='linktag' to='/cashout' >
                             <div className="iconPage">
                                 <div className="icon-area">
                                     <img src="https://cdn-icons-png.flaticon.com/512/5501/5501360.png" className='iconImgCss' />
@@ -27,7 +27,7 @@ const SectionBar = () => {
                         </Link>
                     </div>
                     <div className="withicon">
-                        <Link to='/work' >
+                        <Link className='linktag' to='/work' >
                             <div className="iconPage">
                                 <div className="icon-area">
                                     <img src="https://cdn-icons-png.flaticon.com/128/3774/3774905.png" className='iconImgCss'  />
@@ -37,7 +37,7 @@ const SectionBar = () => {
                         </Link>
                     </div>
                     <div className="withicon">
-                        <Link to='/totalearn' >
+                        <Link className='linktag' to='/totalearn' >
                             <div className="iconPage">
                                 <div className="icon-area">
                                     <img src="https://static.vecteezy.com/system/resources/previews/022/973/168/original/gift-card-flat-icon-shopping-gift-card-earn-points-redeem-present-box-concept-vector-illustration-png.png" className='iconImgCss'  />
@@ -49,7 +49,7 @@ const SectionBar = () => {
                 </div>
                 <div className="all-content mt-2">
                     <div className="withicon">
-                        <Link  to='/plan'>
+                        <Link className='linktag' to='/plan'>
                             <div className="iconPage">
                                 <div className="icon-area">
                                     <img src="https://cdn-icons-png.flaticon.com/128/9398/9398952.png" className='iconImgCss' />
@@ -59,7 +59,7 @@ const SectionBar = () => {
                         </Link>
                     </div>
                     <div className="withicon">
-                        <Link to='/commission'>
+                        <Link className='linktag' to='/commission'>
                             <div className="iconPage">
                                 <div className="icon-area">
                                     <img src="https://cdn-icons-png.flaticon.com/512/10496/10496522.png" className='iconImgCss' />
@@ -69,7 +69,7 @@ const SectionBar = () => {
                         </Link>
                     </div>
                     <div className="withicon">
-                        <Link to='/job' >
+                        <Link className='linktag' to='/job' >
                             <div className="iconPage">
                                 <div className="icon-area">
                                     <img src="https://static.vecteezy.com/system/resources/thumbnails/004/968/602/small/new-email-notification-on-mobile-phone-device-or-smartphone-concept-illustration-flat-design-eps10-vector.jpg" className='iconImgCss'  />
@@ -79,7 +79,7 @@ const SectionBar = () => {
                         </Link>
                     </div>
                     <div className="withicon">
-                        <Link to='/support' >
+                        <Link className='linktag' to='/support' >
                             <div className="iconPage">
                                 <div className="icon-area">
                                     <img src="https://www.iconpacks.net/icons/2/free-chat-support-icon-1721-thumb.png" className='iconImgCss'  />

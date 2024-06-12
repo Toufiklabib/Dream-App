@@ -10,13 +10,13 @@ const Header = () => {
                 <div className="container">
                    { user ? <>   <div className="row">
                         <div className="username">
-                            <h3 className='' >{user?.displayName}</h3>
+                            <h3 className='' >{user.displayName}</h3>
                         </div>
                         <div className="header-info">
                             <div className="thumbnils-img">
                                 <img src="https://cdn-icons-png.flaticon.com/512/147/147140.png" alt="" />
                             </div>
-
+      
                             <div className="check-balance">
                                 <div className="balance-icons">
                                     <div className="balance-icon">

@@ -10,7 +10,7 @@ const Commision = () => {
                     <div class="row">
                         <div class="col-12">
                             <div class="diposit-header">
-                                <Link to='/'><i class="bi bi-chevron-left"></i></Link> <h2>Total Earn</h2>
+                                <Link to='/'><i class="bi bi-chevron-left"></i></Link> <h2>Commision</h2>
                             </div>
                         </div>
                     </div>

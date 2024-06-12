@@ -2,15 +2,14 @@
 import { initializeApp } from "firebase/app";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
-
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyC9bbbewBgvoX3Fxsux-OYIF6hRkabrrzA",
-  authDomain: "dreamglobalinternational-a1ef2.firebaseapp.com",
-  projectId: "dreamglobalinternational-a1ef2",
-  storageBucket: "dreamglobalinternational-a1ef2.appspot.com",
-  messagingSenderId: "156507267350",
-  appId: "1:156507267350:web:d885131b7da66bb97ff037"
+  apiKey: "AIzaSyBJmSE6PK7SVU4hlx61Hi4Sg6GOnmtu2sY",
+  authDomain: "gobal-dream-international.firebaseapp.com",
+  projectId: "gobal-dream-international",
+  storageBucket: "gobal-dream-international.appspot.com",
+  messagingSenderId: "356940405863",
+  appId: "1:356940405863:web:812e71be760317d73248c2"
 };
 
 // Initialize Firebase

@@ -22,44 +22,44 @@ const EarnSection = () => {
 							<div className="col-12">
 								<div className="all-content">
 									<div className="withicon">
-										<a href="/deposit.html">
+										<Link className='linktag' to='/deposite' >
 											<div className="iconPage">
 												<div className="icon-area">
 													<img src="https://cdn-icons-png.flaticon.com/512/3936/3936019.png" className='iconImgCss' />
 												</div>
 												<span>Pay</span>
 											</div>
-										</a>
+										</Link>
 									</div>
 									<div className="withicon">
-										<a href="">
+										<Link className='linktag' to='/deposite'>
 											<div className="iconPage">
 												<div className="icon-area">
 													<img src="https://static.vecteezy.com/system/resources/previews/013/484/033/original/digital-payment-3d-icon-png.png" className='iconImgCss' />
 												</div>
 												<span>Payment</span>
 											</div>
-										</a>
+										</Link>
 									</div>
 									<div className="withicon">
-										<a href="/profile.html">
+										<Link className='linktag' to='/profile'>
 											<div className="iconPage">
 												<div className="icon-area">
 													<img src="https://cdn3d.iconscout.com/3d/premium/thumb/profile-6073860-4996977.png" className='iconImgCss' />
 												</div>
 												<span>Profile</span>
 											</div>
-										</a>
+										</Link>
 									</div>
-									<div className="withicon">
-										<a href="/Index.html">
+									<div className='linktag' >
+										<Link className='linktag'  to='/profile'>
 											<div className="iconPage">
 												<div className="icon-area">
 													<img src="https://png.pngtree.com/png-vector/20230409/ourmid/pngtree-password-icon-vector-png-image_6696962.png" className='iconImgCss' />
 												</div>
 												<span>Password</span>
 											</div>
-										</a>
+										</Link>
 									</div>
 								</div>
 							</div>
@@ -71,17 +71,17 @@ const EarnSection = () => {
 							<div className="col-12 mt-2">
 								<div className="all-content">
 									<div className="withicon">
-										<a href="">
+										<Link className='linktag' to='/support'>
 											<div className="iconPage">
 												<div className="icon-area">
 													<img src="https://cdn-icons-png.flaticon.com/128/9489/9489998.png" className='iconImgCss' />
 												</div>
 												<span>Complain</span>
 											</div>
-										</a>
+										</Link>
 									</div>
 									<div className="withicon">
-										<Link to='/chistory' >
+										<Link className='linktag' to='/chistory'>
 											<div className="iconPage">
 												<div className="icon-area">
 													<img src="https://cdn-icons-png.flaticon.com/512/1802/1802636.png" className='iconImgCss' />
@@ -91,7 +91,7 @@ const EarnSection = () => {
 										</Link>
 									</div>
 									<div className="withicon">
-										<Link to='/dhistory' >
+										<Link className='linktag' to='/dhistory' >
 											<div className="iconPage">
 												<div className="icon-area">
 													<img src="https://cdn-icons-png.flaticon.com/512/5180/5180799.png" className='iconImgCss' />
@@ -101,7 +101,7 @@ const EarnSection = () => {
 										</Link>
 									</div>
 									<div className="withicon">
-										<Link onClick={handelLogout}>
+										<Link className='linktag' onClick={handelLogout}>
 											<div className="iconPage">
 												<div className="icon-area">
 													<img src="https://cdn-icons-png.flaticon.com/512/1053/1053210.png" className='iconImgCss' />
